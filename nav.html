@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+*{
+  box-sizing:border-box;
+  margin:0%;
+  padding:0%;
+}
+body{
+  background-color:gray;
+}
+
+header{
+  display:flex;
+  justify-content:space-bitween;
+  align-items:center;
+  padding:30px,70px;
+}
+
+.logo{
+     cursor:pointer;
+     hight:100px;
+     width:100px;
+}
+
+.nav-area{
+  list-style:none;
+  float: right;
+
+}
+.nav-area li{
+  display:inline-block;
+    padding:0 15px;
+    text-transform:uppercase;
+}
+
+.nav-area li a{
+  transition:.3s;
+  color:white;
+
+}
+.nav-area li a:hover{
+  color:black;
+}
+.batn{
+  background-color:;
+  border-color: black;
+  border-style:  groove;
+  border-width: 2px;
+  border-radius: 50px;
+  padding: 0% 1%;
+  align-items: center;
+}
+ .batn{
+   float: left;
+ }
+
+  a:link {
+    text-decoration: none;
+
+}
+ .batn a:hover{
+   color: red;
+ }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="logo" class="logo">
+      <nav>
+         <ul class="nav-area">
+           <li><a href="#">home</a></li>
+           <li><a href="#">about</a></li>
+           <li><a href="#">menu</a></li>
+
+         </ul>
+      </nav>
+      <a href="#" class="batn">login</a>
+    </header>
+  </body>
+</html>
